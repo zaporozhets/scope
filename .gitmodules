@@ -14,3 +14,7 @@
 	path = dut_test
 	url = git@github.com:zaporozhets/dut_test.git
 	branch = master
+[submodule "buildroot"]
+	path = buildroot
+	url = git@github.com:zaporozhets/buildroot.git
+	branch = scope
