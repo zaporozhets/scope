@@ -1,0 +1,16 @@
+[submodule "u-boot"]
+	path = u-boot
+	url = git@github.com:zaporozhets/u-boot.git
+	branch = scope
+[submodule "linux"]
+	path = linux
+	url = git@github.com:zaporozhets/linux.git
+	branch = scope
+[submodule "arduino_tsc"]
+	path = arduino_tsc
+	url = git@github.com:zaporozhets/arduino_tsc.git
+	branch = master
+[submodule "dut_test"]
+	path = dut_test
+	url = git@github.com:zaporozhets/dut_test.git
+	branch = master
