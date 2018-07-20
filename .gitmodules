@@ -18,3 +18,7 @@
 	path = buildroot
 	url = git@github.com:zaporozhets/buildroot.git
 	branch = scope
+[submodule "scopeApp"]
+	path = scopeApp
+	url = git@github.com:zaporozhets/scopeApp.git
+	branch = master
