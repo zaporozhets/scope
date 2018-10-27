@@ -1,24 +1,22 @@
-[submodule "u-boot"]
-	path = u-boot
-	url = git@github.com:zaporozhets/u-boot.git
-	branch = scope
 [submodule "linux"]
-	path = linux
+	path = bsp/linux
 	url = git@github.com:zaporozhets/linux.git
 	branch = scope
 [submodule "arduino_tsc"]
-	path = arduino_tsc
+	path = bsp/arduino_tsc
 	url = git@github.com:zaporozhets/arduino_tsc.git
 	branch = master
 [submodule "dut_test"]
-	path = dut_test
+	path = apps/dut_test
 	url = git@github.com:zaporozhets/dut_test.git
 	branch = master
 [submodule "buildroot"]
-	path = buildroot
+	path = bsp/buildroot
 	url = git@github.com:zaporozhets/buildroot.git
 	branch = scope
-[submodule "scopeApp"]
-	path = scopeApp
+[submodule "bsp/u-boot"]
+	path = bsp/u-boot
+	url = https://github.com/zaporozhets/u-boot.git
+[submodule "apps/scopeApp"]
+	path = apps/scopeApp
 	url = git@github.com:zaporozhets/scopeApp.git
-	branch = master
