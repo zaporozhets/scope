@@ -14,7 +14,7 @@ TOP_DIR=$(readlink -f "${THIS_SCRIPT_DIR}/")
 function MAIN
 {
 
-    TARGET="dev"
+    TARGET="scope"
 
     echo "Using target: ${TARGET}"
 
